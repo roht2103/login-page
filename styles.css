@@ -1,0 +1,18 @@
+.div-login{
+    border: 1px solid azure;
+    height: 70vh;
+    width: 80vw;
+    background-color: aliceblue;
+    border-radius: 2rem;
+}
+.div{
+    padding-top: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-heading{
+    display: flex;
+    justify-content: center;
+}
