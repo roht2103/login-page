@@ -4,6 +4,7 @@
     width: 40vw;
     background-color: aliceblue;
     border-radius: 2rem;
+    min-width: 60vh ;
 }
 .div{
     padding-top: 5vh;
@@ -15,6 +16,45 @@
 .div-heading{
     display: flex;
     justify-content: center;
-    font-size: xx-large;
+    font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.login-contents{
+    padding-top: 5vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-bottom: 10vh;
+    display:grid;
+    justify-content: center;
+}
+.user-name{
+    height: 5vh;
+    width: 50vh;
+    border: 0px;
+    border-radius: 1rem;
+    font-size: 25px;
+    font-family: monospace;
+    resize: none;
+}
+.password{
+    
+    height: 5vh;
+    width: 50vh;
+    border: 0px;
+    border-radius: 1rem;
+    font-size: 25px;
+    font-family: monospace;
+    resize: none;
+}
+
+.user{
+    font-size: 25px;
+    color: gray;
+}
+
+.pass{
+    margin-top: 6vh;
+    font-size: 25px;
+    color: gray;
 }
