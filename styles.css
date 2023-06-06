@@ -1,16 +1,21 @@
+body{
+    cursor: url('./cursor.png'),auto;
+}
 .div-login{
     border: 1px solid azure;
     height: 90vh;
     width: 40vw;
     background-color: aliceblue;
     border-radius: 2rem;
-    min-width: 60vh ;
+    min-width: 60vh;
+    min-height: 80vh;
 }
 .div{
     padding-top: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .div-heading{
@@ -20,7 +25,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.login-contents{
+.div-contents{
     padding-top: 5vh;
     padding-left: 10vh;
     padding-right: 10vh;
@@ -28,7 +33,7 @@
     display:grid;
     justify-content: center;
 }
-.user-name{
+.txt-area{
     height: 5vh;
     width: 50vh;
     border: 0px;
@@ -36,16 +41,7 @@
     font-size: 25px;
     font-family: monospace;
     resize: none;
-}
-.password{
-    
-    height: 5vh;
-    width: 50vh;
-    border: 0px;
-    border-radius: 0.5rem;
-    font-size: 25px;
-    font-family: monospace;
-    resize: none;
+    min-width: 20vw;
 }
 
 .user{
@@ -79,7 +75,7 @@
 }
 
 .register{
-    display: grid;
+    display: flex;
     justify-content: center;
 }
 .register-btn{
@@ -87,4 +83,22 @@
     justify-content: center;
     text-decoration: none;
     margin-top  : 0%;
+}
+
+.signup{
+    display: flex;  
+    padding: 0.5rem;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(205, 229, 249);
+    border-radius: 0.5rem;
+    background-color:rgb(205, 229, 249);
+    width: 7vw;
+    font-size: 25px;
+}
+.signup-btn{
+    display: flex;
+    justify-content: right;
+    margin-top: 5vh;   
 }
